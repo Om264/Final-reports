@@ -1,0 +1,5 @@
+2026-06-03 00:37:10 | Beijing | 12.37 mm/h | YELLOW | 
+2026-06-03 00:42:05 | Beijing | 2.66 mm/h | GREEN | 
+2026-06-03 00:43:47 | Beijing | 6.23 mm/h | GREEN | 
+2026-06-03 00:45:58 | Beijing | 0.41 mm/h | GREEN | 
+2026-06-03 00:48:00 | Beijing | 0.00 mm/h | GREEN | 

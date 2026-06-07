@@ -1,0 +1,31 @@
+============================================================
+SCS-CN Runoff Model - Physical Validation Report
+============================================================
+Overall Status: PASS
+  7/7 tests passed
+
+Grid:
+  Rainfall points: 21
+  CN points:       20
+
+  [PASS] Q >= 0 (Runoff non-negative)
+         All runoff values are non-negative
+  [PASS] Q <= P (Runoff does not exceed rainfall)
+         All runoff values respect the rainfall limit
+  [PASS] Monotonic: Higher CN -> More runoff (fixed P)
+         Monotonic behavior confirmed for all rainfall values
+  [PASS] P <= Ia => Q = 0 (Initial abstraction threshold)
+         All threshold cases pass
+  [PASS] CN = 100 => Impervious (S=0, Ia=0, Q=P)
+         CN=100 behaves as impervious surface
+  [PASS] CN = 0 => All infiltration (Q = 0)
+         CN=0 produces zero runoff as expected
+  [PASS] Numerical stability for edge cases
+         All edge cases handled with numerical stability
+
+Key Physical Constraints:
+  [PASS] Q >= 0
+  [PASS] Q <= P
+  [PASS] Monotonic (higher CN -> more runoff)
+
+============================================================
